@@ -1,0 +1,316 @@
+@media(max-width: 1079px){
+    .nav{
+        margin-left: 30px;
+    }
+    .header__content{
+        margin-left: 30px;
+    }
+    .products__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .info__title{
+        margin-left: 30px;
+    }
+    a.info__btn{
+        margin-right: 30px;
+    }
+    .blog__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 1089px){
+    .blog__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 970px){
+    h1.header__title{
+        font-size: 50px;
+    }
+    p.header__subtitle{
+        font-size: 18px;
+        max-width: 430px;
+    }
+    .second-info .info__wrapper h2.info__title{
+        font-size: 40px;
+    }
+}
+@media(max-width: 930px){
+    #menu-icon{
+        display: block !important;
+    }
+    .nav__list-wrapper{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        right: 0;
+        z-index: 1002;
+        width: 250px;
+        background-color: #000;
+        transition: all 0.3s ease;
+    }
+    .nav__list-wrapper.open{
+        left: 0;
+    }
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        row-gap: 25px;
+        left: 2%;
+        top: 15%;
+    }
+    h2.nav__list-wrapper-logo{
+        display: block;
+        position: absolute;
+        left: 6%;
+        font-size: 30px;
+        top: 3%;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+    }
+    a.nav__item{
+        color: #fff;
+    }
+}
+@media(max-width: 885px){
+    .second-info .info__wrapper h2.info__title{
+        font-size: 30px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 15px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 30px;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 15px;
+    }
+    h1.subscribe-title{
+        font-size: 35px;
+    }
+}
+@media(max-width: 770px){
+    .header__wrapper{
+    }
+    .header__content{
+
+    }
+    .header__subtitle{
+    }
+    .header img{
+        display: none;
+        max-width: 100%;
+    }
+}
+@media(max-width: 630px){
+    .second-info .info__wrapper h2.info__title{
+        font-size: 27px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 20px;
+        line-height: 50px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 50px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 27px;
+        text-align: center;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 20px;
+        line-height: 50px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 50px;
+    }
+    p.subscribe-subtitle{
+        font-size: 17px;
+        max-width: 480px;
+    }
+}
+@media(max-width: 545px){
+    .second-info .info__wrapper h2.info__title{
+        font-size: 22px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 20px;
+        line-height: 38px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 40px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 22px;
+        text-align: center;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 20px;
+        line-height: 38px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 40px;
+    }
+}
+@media(max-width: 490px){
+    h3.products__header{
+        font-size: 35px;
+    }
+    .second-info .info__wrapper h2.info__title{
+        font-size: 22px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0;
+        margin: auto;
+        width: 100px;
+        height: 35px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0;
+        margin: auto;
+        width: 100px;
+        height: 35px;
+    }
+    h3.blog__title{
+        font-size: 35px;
+    }
+    img.card__img{
+        margin-left: 15px;
+    }
+    p.subscribe-subtitle{
+        font-size: 15px;
+        max-width: 440px;
+    }
+}
+@media(max-width: 460px){
+    h1.header__title{
+        font-size: 40px;
+        line-height: 65px;
+    }
+    p.header__subtitle{
+        font-size: 15px;
+        max-width: 350px;
+        line-height: 25px;
+    }
+    a.header__btn{
+        font-size: 15px;
+    }
+    .info__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-info .info__wrapper h2.info__title{
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 35px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0;
+        margin: auto;
+        width: 130px;
+        height: 35px;
+    }
+    p.subscribe-subtitle{
+        font-size: 14px;
+        max-width: 380px;
+    }
+}
+@media(max-width: 370px){
+    h1.header__title{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    p.header__subtitle{
+        font-size: 15px;
+        max-width: 300px;
+        line-height: 23px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    a.header__btn{
+        font-size: 16px;
+    }
+    h3.products__header{
+        font-size: 30px;
+    }
+    h3.blog__title{
+        font-size: 35px;
+    }
+    .info__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-info .info__wrapper h2.info__title{
+        font-size: 22px;
+    }
+    .second-info .info__wrapper a.info__btn{    
+        font-size: 15px;
+        line-height: 40px;
+        padding: 0;
+        margin: auto;
+        width: 120px;
+        height: 40px;
+    }
+    .info .info__wrapper h2.info__title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .info .info__wrapper a.info__btn{    
+        font-size: 15px;
+        line-height: 40px;
+        padding: 0;
+        margin: auto;
+        width: 120px;
+        height: 40px;
+    }
+    h1.subscribe-title{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    p.subscribe-subtitle{
+        font-size: 16px;
+    }
+    .subscribe__form-input{
+        margin-bottom: 20px;
+    }
+    .footer__wrapper .footer__links a{
+        font-size: 12px;
+    }
+    .footer__wrapper .footer__socials a{
+        font-size: 9px;
+    }
+}
